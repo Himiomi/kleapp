@@ -2,7 +2,10 @@
   "name": "kleapp",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx build kleapp",
+    "run": "nx run kleapp"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.1.0",
