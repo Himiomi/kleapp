@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "nx build kleapp",
-    "run": "nx run kleapp"
+    "run": "nx serve kleapp --host 0.0.0.0"
   },
   "private": true,
   "dependencies": {
